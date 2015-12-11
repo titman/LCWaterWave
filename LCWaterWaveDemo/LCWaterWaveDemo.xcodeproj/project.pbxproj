@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C463A61C1AD29F002123D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C463A51C1AD29F002123D5 /* main.m */; };
+		13C463A91C1AD29F002123D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C463A81C1AD29F002123D5 /* AppDelegate.m */; };
+		13C463AC1C1AD29F002123D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C463AB1C1AD29F002123D5 /* ViewController.m */; };
+		13C463AF1C1AD29F002123D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C463AD1C1AD29F002123D5 /* Main.storyboard */; };
+		13C463B11C1AD29F002123D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C463B01C1AD29F002123D5 /* Assets.xcassets */; };
+		13C463B41C1AD29F002123D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C463B21C1AD29F002123D5 /* LaunchScreen.storyboard */; };
+		13C463BE1C1AD2CF002123D5 /* LCWaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C463BD1C1AD2CF002123D5 /* LCWaterWave.m */; };
+		13C463C01C1AD52D002123D5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C463BF1C1AD52D002123D5 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13C463A11C1AD29F002123D5 /* LCWaterWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCWaterWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C463A51C1AD29F002123D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13C463A71C1AD29F002123D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13C463A81C1AD29F002123D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13C463AA1C1AD29F002123D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13C463AB1C1AD29F002123D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13C463AE1C1AD29F002123D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13C463B01C1AD29F002123D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C463B31C1AD29F002123D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13C463B51C1AD29F002123D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C463BC1C1AD2CF002123D5 /* LCWaterWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWaterWave.h; sourceTree = "<group>"; };
+		13C463BD1C1AD2CF002123D5 /* LCWaterWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWaterWave.m; sourceTree = "<group>"; };
+		13C463BF1C1AD52D002123D5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C4639E1C1AD29F002123D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C463C01C1AD52D002123D5 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C463981C1AD29F002123D5 = {
+			isa = PBXGroup;
+			children = (
+				13C463BF1C1AD52D002123D5 /* CoreMotion.framework */,
+				13C463A31C1AD29F002123D5 /* LCWaterWaveDemo */,
+				13C463A21C1AD29F002123D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13C463A21C1AD29F002123D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C463A11C1AD29F002123D5 /* LCWaterWaveDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C463A31C1AD29F002123D5 /* LCWaterWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13C463A71C1AD29F002123D5 /* AppDelegate.h */,
+				13C463A81C1AD29F002123D5 /* AppDelegate.m */,
+				13C463AA1C1AD29F002123D5 /* ViewController.h */,
+				13C463AB1C1AD29F002123D5 /* ViewController.m */,
+				13C463BB1C1AD2B6002123D5 /* LCWaterWave */,
+				13C463AD1C1AD29F002123D5 /* Main.storyboard */,
+				13C463B01C1AD29F002123D5 /* Assets.xcassets */,
+				13C463B21C1AD29F002123D5 /* LaunchScreen.storyboard */,
+				13C463B51C1AD29F002123D5 /* Info.plist */,
+				13C463A41C1AD29F002123D5 /* Supporting Files */,
+			);
+			path = LCWaterWaveDemo;
+			sourceTree = "<group>";
+		};
+		13C463A41C1AD29F002123D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C463A51C1AD29F002123D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13C463BB1C1AD2B6002123D5 /* LCWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				13C463BC1C1AD2CF002123D5 /* LCWaterWave.h */,
+				13C463BD1C1AD2CF002123D5 /* LCWaterWave.m */,
+			);
+			name = LCWaterWave;
+			path = ../../LCWaterWave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C463A01C1AD29F002123D5 /* LCWaterWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C463B81C1AD29F002123D5 /* Build configuration list for PBXNativeTarget "LCWaterWaveDemo" */;
+			buildPhases = (
+				13C4639D1C1AD29F002123D5 /* Sources */,
+				13C4639E1C1AD29F002123D5 /* Frameworks */,
+				13C4639F1C1AD29F002123D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCWaterWaveDemo;
+			productName = LCWaterWaveDemo;
+			productReference = 13C463A11C1AD29F002123D5 /* LCWaterWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C463991C1AD29F002123D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = titman;
+				TargetAttributes = {
+					13C463A01C1AD29F002123D5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 13C4639C1C1AD29F002123D5 /* Build configuration list for PBXProject "LCWaterWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C463981C1AD29F002123D5;
+			productRefGroup = 13C463A21C1AD29F002123D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C463A01C1AD29F002123D5 /* LCWaterWaveDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C4639F1C1AD29F002123D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C463B41C1AD29F002123D5 /* LaunchScreen.storyboard in Resources */,
+				13C463B11C1AD29F002123D5 /* Assets.xcassets in Resources */,
+				13C463AF1C1AD29F002123D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C4639D1C1AD29F002123D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C463AC1C1AD29F002123D5 /* ViewController.m in Sources */,
+				13C463BE1C1AD2CF002123D5 /* LCWaterWave.m in Sources */,
+				13C463A91C1AD29F002123D5 /* AppDelegate.m in Sources */,
+				13C463A61C1AD29F002123D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13C463AD1C1AD29F002123D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C463AE1C1AD29F002123D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13C463B21C1AD29F002123D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C463B31C1AD29F002123D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13C463B61C1AD29F002123D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13C463B71C1AD29F002123D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C463B91C1AD29F002123D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCWaterWaveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.titman.water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13C463BA1C1AD29F002123D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCWaterWaveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.titman.water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C4639C1C1AD29F002123D5 /* Build configuration list for PBXProject "LCWaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C463B61C1AD29F002123D5 /* Debug */,
+				13C463B71C1AD29F002123D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C463B81C1AD29F002123D5 /* Build configuration list for PBXNativeTarget "LCWaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C463B91C1AD29F002123D5 /* Debug */,
+				13C463BA1C1AD29F002123D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C463991C1AD29F002123D5 /* Project object */;
+}
