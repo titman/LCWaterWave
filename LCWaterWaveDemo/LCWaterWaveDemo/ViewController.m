@@ -28,21 +28,34 @@
     
     
     LCWaterWave * red = [[LCWaterWave alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, 20, 200, 200)];
+    red.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    red.layer.borderWidth = 1;
     red.layer.cornerRadius = 100;
     red.layer.masksToBounds = YES;
-    red.color = [[UIColor redColor] colorWithAlphaComponent:0.8];
+    red.color = [[UIColor redColor] colorWithAlphaComponent:0.6];
     red.speed = 0.1;
     red.progress = 0.5;
     [self.view addSubview:red];
     
     
-    LCWaterWave * blue = [[LCWaterWave alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, 250, 200, 200)];
-    blue.layer.cornerRadius = 100;
+    LCWaterWave * blue = [[LCWaterWave alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 50, 250, 100, 100)];
+    blue.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    blue.layer.borderWidth = 1;
+    blue.layer.cornerRadius = 50;
     blue.layer.masksToBounds = YES;
     blue.color = [[UIColor blueColor] colorWithAlphaComponent:0.5];
-    blue.speed = 0.3;
+    blue.speed = 0.15;
     blue.progress = 0.7;
     [self.view addSubview:blue];
+    
+    
+    LCWaterWave * yellow = [[LCWaterWave alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 40, 370, 80, 80)];
+    yellow.layer.cornerRadius = 40;
+    yellow.layer.masksToBounds = YES;
+    yellow.color = [[UIColor purpleColor] colorWithAlphaComponent:0.5];
+    yellow.speed = 0.08;
+    yellow.progress = 0.3;
+    [self.view addSubview:yellow];
 }
 
 - (void)didReceiveMemoryWarning {
